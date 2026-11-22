@@ -1,0 +1,22 @@
+.DS_Store
+.idea/
+*.iml
+
+# Java
+target/
+
+# Control Room
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Cache System nodes started by start-nodes.sh
+cache-system/logs/
+cache-system/run/
+
+# Redis started by redis/start-redis.sh
+redis/logs/
+redis/run/
+
+# Load-test results: every run writes a JSON file here on your own machine
+product-catalogue/runs/
